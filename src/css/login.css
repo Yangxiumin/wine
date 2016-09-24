@@ -1,0 +1,19 @@
+.login-form{height:436px;width:948px;position: absolute;top:70px;left:160px;}
+.login-form .login-left img{width:441px;height:436px;float: left;border: none;}
+.login-form .login-right{background: white;width:466px;height:429px;border:1px solid #C5C5C5;float: left;margin-left: 23px;}
+.login-form .login-right .t{text-align: center;padding-top: 20px;padding-bottom: 29px;}
+.login-form .login-right .t img{vertical-align:middle;} 
+.login-form .login-right .t-1 {text-align: center;}
+.login-form .login-right .t-1 input{width: 350px;height:50px;}
+
+.t-2 p{text-indent: 55px;margin:20px 0;	}
+.t-2 a{float: right;text-indent:-100px;}
+.t-3 p{text-indent: 55px;}
+.t-3 input{width: 355px;height:40px;background: #ff0421;color: #ffffff;border:none;border-radius:3%;text-indent: 55px;}
+.bt{height: 7px;width: 400px; background: url(img/login-bg0.png) repeat-x; margin:20px 0 10px 30px ;}
+.t-4{text-indent: 70px;}
+
+.login-nav{position: relative;}
+.login-nav ul{position: absolute;left:70px;padding-top: 10px;}
+.login-nav li{display: inline-block;}
+.regist a{text-align: center;line-height: 39px;position: absolute;width:116px;height: 39px;background:#ff0421;bottom:160px;right:190px;}

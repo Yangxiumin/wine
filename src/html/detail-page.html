@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+	<link rel="stylesheet" type="text/css" href="../css/reset.css">
+	<link rel="stylesheet" type="text/css" href="../css/common.css">
+	<link rel="stylesheet" type="text/css" href="../css/detail.css">
+	<script src="../asset/jquery-1.12.0.js"></script> 
+	<script src="../asset/jquery-1.8.3.min.js"></script>
+	<script src="../asset/jquery.elevateZoom-3.0.8.min.js"></script>
+	<script src="../asset/jquery.elevatezoom.js"></script>
+	<script src="../js/mycookie.js" ></script>
+	<script src="../js/detail.js"></script>
+	<script src="../js/gcar.js"></script>
+
+	<style>
+	</style>
+	</head>
+	<body>
+	<div class="wrap">	
+		<div class="top">
+				<img src="../css/img/top.png">
+			</div>
+			
+		<div class="nav">
+			<div class="nav1">
+				<ul>
+					<li>欢迎来到购酒网！<span>1880676734</span></li>
+					<li><a href="/index.html#a-1">登录</a></li>
+					<li><a href="../regist.html">快速注册</a></li>
+					<li><a href="#"><span class="gift">领取会员专属礼包</span></a></li>
+				</ul>
+			</div>	
+			<div class="nav2">
+				<ul>
+					<li id="order" >购物车<span class="number">0</span>件</li>
+					
+					<li ><a href="gcar.html">我的订单</li>
+					<li id="uerC">用户中心</li>
+					<li><a href="#">帮助</a></li>
+					<li><span class="serve"><a href="#">在线客服</a></span></li>
+					<li><span class="seg"><a herf="#">提建议</a></span></li>
+					<li><span class="wei"><a href="#">微博</a></span></li>
+				</ul>
+			</div>
+		</div>
+		
+		<div class="content">	
+		<div class="content-top">
+			<div class="tp">
+				<img src="../css/img/logo.jpg">
+				<i></i>
+				<img src="../css/img/de-coin-5.png">
+			</div>
+		<div class="serch">
+			<input type="text"><button>搜索</button>
+			<ul>
+				<li><a  href="#">热门搜索：</a></li>
+				<li><a  href="#">茅台</a></li>
+				<li><a  href="#">郎酒</a></li>
+				<li><a  href="#">五粮液</a></li>
+				<li><a  href="#">剑南春</a></li>
+				<li><a  href="#">泸州老窖</a></li>
+				<li><a  href="#">洋河</a></li>
+			</ul>
+		</div>
+		<div class="tp-2">
+			<dl>
+				<dt><img src="../css/img/de-coin-1.png"></dt>
+				<dd>正品保障</dd>
+			</dl>
+			<dl>
+				<dt><img src="../css/img/de-coin-2.png"></dt>
+				<dd>满百包邮</dd>
+			</dl>
+			<dl>
+				<dt><img src="../css/img/de-coin-3.png"></dt>
+				<dd>售后无忧</dd>
+			</dl>
+		</div>
+	</div>
+	<div class="con-nav">
+		<div class="g-list">全部商品分类<img src="../css/img/de-coin-6.png"></div>
+		<ul>
+			<li><a href="#">首页</a></li>
+			<li>每周特卖</li>
+			<li>码上抢</li>
+			<li>进口馆</li>
+			<li>我爱小酒版</li>
+			<li>高端就收藏</li>
+			<li>陈年老酒</li>
+		</ul>
+		<div class="g-car"><a href="gcar.html"><img src="../css/img/de-coin-7.png">我的购物车</a><img src="../css/img/de-coin-8.png"></div>
+	</div>
+	<div class="con-nav-1">
+		<span><a href="#">首页&gt;</a></span>
+		<span><a href="#">白酒&gt;</a></span>
+		<span><a href="#">小糊涂仙&gt;</a></span>
+		<span><a href="#" id="red">52度 小糊涂仙 500ml</a></span>
+	</div>
+	
+	<div class="content-main">
+		<div class="pic">
+			<div class="lxzoom" >
+				<img  id="box" src="../img/main-1.jpg" data-zoom-image="../img/main-01.jpg">
+		
+			</div>
+			<div class="s-pic">
+				<ul>
+					<li><img src="../img/main20.jpg"></li>
+					<li><img src="../img/main21.jpg"></li>
+					<li><img src="../img/main22.jpg"></li>
+					<li><img src="../img/main23.jpg"></li>
+					<li><img src="../img/main24.jpg"></li>
+				</ul>
+			</div>
+			<div class="c-pic">
+				<ul>
+					分享到：
+					<li><a href="#"><img src="../img/main-coin-1.png"></a></li>
+					<li><a href="#"><img src="../img/main-coin-2.png"></a></li>
+					<li><a href="#"><img src="../img/main-coin-3.png"></a></li>
+					<li><a href="#"><img src="../img/main-coin-1.png"></a></li>
+					<li><a href="#"><img src="../img/main-coin-2.png"></a></li>
+				</ul>
+				<span><img src="../img/main-coin-4.png">加入收藏</span>
+			</div>
+		</div>
+		
+		
+		<div class="pic-mess">
+			<h4 id="msg0">53度 小糊涂仙  500ml</h4>
+			<div class="seld">
+				<p>参考价：<span id="pr1">￥164</span></p>
+				<p id="pr2">售价：￥<span>129</span></p>
+			</div>
+				<p id="pr3">配送至：
+				<select>
+					<option>上海(现货)</option>
+					<option>安徽(现货)</option>
+					<option>广州(现货)</option>
+					<option>海南(现货)</option>
+				</select>
+				单笔订单不满100元，收费10元，满百包邮
+				</p>
+				<p id="pr4"><span id="fu">货到付款</span ><span id="fu2">在线支付</span><span id="fu3">累计评价</span></p>
+			
+			<p id="pr5">关联：<span >52度 酒鬼 红坛 15年酒 500ml</span><span>52度 酒鬼 红坛 15年酒 500ml</span></p>
+			<p id="pr6"><span >52度 酒鬼 红坛 15年酒 500ml</span><span>52度 酒鬼 红坛 15年酒 500ml</span></p>
+			<p  id="pr7"><span>52度 酒鬼 红坛 15年酒 500ml</span><span>52度 酒鬼 红坛 15年酒 500ml</span></p>
+		
+		<div class="pr-bt">
+			<div class="g-num">
+				数量：<span>1</span><i id="add">+</i><i id="jian">-</i>
+				<input type="button"  id="g-add" value="加入购物车">
+			</div>
+			<div class="g-numr">
+			<img src="../img/main-coin-8.png">
+			</div>
+		</div>
+		
+		
+		<p id="pr-bt1">服务承诺：
+			<span><img src="../img/main-coin-5.png"><a href="#">正品保障</a></span>
+			<span><img src="../img/main-coin-6.png"><a href="#">货到付款</a></span>
+			<span><img src="../img/main-coin-7.png">客服服务时间 每天08:30-21:30</span>
+			
+		</p>
+		</div>
+		<div class="pic-right">
+			<ul>
+				<li>小糊涂仙品牌馆</li>
+				<li>小糊涂品牌仙馆</li>
+				<li ><span class="kefu">在线客服</span></li>
+			</ul>
+			<dl>
+				<dt><img src="../img/main-3.png"></dt>
+				<dd>52度 小糊涂仙  500ml</dd>
+			</dl>
+			<dl>
+				<dt><img src="../img/main-4.png"></dt>
+				<dd>52度 小糊涂仙  500ml</dd>
+			</dl>
+		</div>	
+	</div>	
+	
+	<div class="type">
+		<div class="left">
+		<div id="ty">
+		<div class="fenl">相关分类</div>
+		<div class="jiu">
+			<ul>
+				<li><a href="#">白酒</a></li>
+				<li><a href="#">白酒</a></li>
+				<li><a href="#">白酒</a></li>
+				<li><a href="#">白酒</a></li>
+			</ul>
+			<ul>
+				<li><a href="#">葡萄酒</a></li>
+				<li><a href="#">黄酒</a></li>
+				<li><a href="#">白酒</a></li>
+				<li><a href="#">白酒</a></li>
+			</ul>
+		</div>
+	</div>
+		<div id="ty">
+		<div class="fenl">相关分类</div>
+		<div class="jiu">
+			<ul>
+				<li><a href="#">白酒</a></li>
+				<li><a href="#">白酒</a></li>
+				<li><a href="#">白酒</a></li>
+				<li><a href="#">白酒</a></li>
+			</ul>
+			<ul>
+				<li><a href="#">葡萄酒</a></li>
+				<li><a href="#">黄酒</a></li>
+				<li><a href="#">白酒</a></li>
+				<li><a href="#">白酒</a></li>
+			</ul>
+		</div>
+	</div>
+
+		<div class="tlook">浏览了该商品的用户还购买了</div>
+		<div class="other">
+			
+			<dl>
+				<img src="../img/car_pic0.jpg">
+				<dt>30度 小糊涂仙 299ml</dt>
+				<dd>￥234</dd>
+				<a class="gadd"href="#">加入购物车</a>
+			</dl>
+			
+		
+		</div>
+	</div>
+	
+	
+	<div class="right">
+		<div class="jtext">
+			<dl>
+				<dt>品牌：<a href="#">小糊涂仙</a></dt>
+				<dd>度数：54度</dd>
+			</dl>
+			<dl>
+				<dt>品牌：<a href="#">小糊涂仙</a></dt>
+				<dd>度数：54度</dd>
+			</dl>
+			<dl>
+				<dt>品牌：<a href="#">小糊涂仙</a></dt>
+				<dd>度数：54度</dd>
+			</dl>
+			<dl>
+				<dt>品牌：<a href="#">小糊涂仙</a></dt>
+				<dd>度数：54度</dd>
+			</dl>
+		</div>
+		<img src="../css/img/big.gif">
+		<img src="../css/img/big.gif">
+		<img src="../css/img/big.gif">
+		<img src="../css/img/big.gif">
+		<img src="../css/img/big.gif">
+		<img src="../css/img/big.gif">
+		
+		</div>
+		</div>
+		<div class="clearfix" style="clear: both;"></div>
+		<div class="bottom1">
+			<img src="../css/img/bo1.gif">
+		<div class="bottom1_1">
+			<ul>
+				<h4>新手指南</h4>
+				<li>用户协议</li>
+				<li>常见问题</li>
+				<li>网站购物流程</li>
+				<li>会员流程</li>
+			</ul>
+			<ul>
+				<h4>新手指南</h4>
+				<li>用户协议</li>
+				<li>常见问题</li>
+				<li>网站购物流程</li>
+				<li>会员流程</li>
+			</ul>
+			<ul>
+				<h4>新手指南</h4>
+				<li>用户协议</li>
+				<li>常见问题</li>
+				<li>网站购物流程</li>
+				<li>会员流程</li>
+			</ul>
+			<ul>
+				<h4>新手指南</h4>
+				<li>用户协议</li>
+				<li>常见问题</li>
+				<li>网站购物流程</li>
+				<li>会员流程</li>
+			</ul>
+			<ul>
+				<h4>新手指南</h4>
+				<li>用户协议</li>
+				<li>常见问题</li>
+				<li>网站购物流程</li>
+				<li>会员流程</li>
+			</ul>
+			<ul class="bli">
+				<h4>新手指南</h4>
+				<li>用户协议</li>
+				<li>常见问题</li>
+				<li>网站购物流程</li>
+				<li>会员流程</li>
+			</ul>
+		</div>
+	</div>	
+	<div class="bottom2">
+		<div class="bottom2_1">
+			<dl>
+				<img src="../css/img/con-3.png">
+				<dt>正品保障</dt>
+				<dd>正品授权  发票随售</dd>
+			</dl>
+			<dl>
+				<img src="../css/img/con-4.png">
+				<dt>正品保障</dt>
+				<dd>正品授权  发票随售</dd>
+			</dl>
+			<dl>
+				<img src="../css/img/con-5.png">
+				<dt>正品保障</dt>
+				<dd>正品授权  发票随售</dd>
+			</dl>
+			<dl>
+				<img src="../css/img/con-6.png">
+				<dt>正品保障</dt>
+				<dd>正品授权  发票随售</dd>
+			</dl>
+			<dl>
+				<img src="../css/img/con-7.png">
+				<dt>正品保障</dt>
+				<dd>正品授权  发票随售</dd>
+			</dl>
+		</div>
+	</div>
+	<p class="end">Copyright&copy; 2009-2015 gjw.com All Right Reserved 上海购酒网电子商务有限公司</p>
+	<p class="end"><img src="../css/img/con-8.png"></p>
+		
+	</div>	
+</div>
+	</body>
+</html>

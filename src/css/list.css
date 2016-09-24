@@ -1,0 +1,14 @@
+.list-banner{margin-bottom: 10px;}
+.list-banner img{width:100%}
+
+.lit{width:1002px;height: 42px; border:1px solid #CCCCCC;margin: auto;line-height: 42px;}
+.lit .lx{font-weight: bold;}
+
+.glist{width:1050px;border: 1px solid #999999;margin: auto;}
+.glist .olist{width:230px;height:316px;border:1px solid #919191;line-height: 30px;text-indent:10px ;margin: 15px;float: left;}
+.glist .olist img{width:203px;height: 199px;}
+.glist .olist .price {color: red;text-indent: 10px;display:inline-block}
+.glist .olist .oprice{float: right;}
+.glist .olist .oprice i{font-style: normal;text-decoration: line-through;}
+.glist .olist .per{display: inline-block; width:132px; background:#f1f1f1;}
+.glist .olist .gadd{background: #987324;display:inline-block;}

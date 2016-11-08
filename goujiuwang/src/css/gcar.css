@@ -1,0 +1,40 @@
+.top{width:auto;height:30px;border-bottom: 1px solid #999999;background: #f7f7f7;font-size: 16px;}
+.top0,.car-top,.car-content,.list,.bottom{width:980px;margin: auto;}
+
+.top1 ul li,.top2 ul li{display: inline-block;line-height:30px;}
+.top1{float: left; font-size: 16px;}
+.top1 #top1-num{color:red; font-weight: bold;}
+.top2{float: right; font-size: 16px;}
+.top2 ul li{padding-right:15px;}
+.top2 img{vertical-align: middle;}
+.top2 #top2-sug, .top2 #top2-weib{color:red}
+
+.car-top{height:60px;position: relative; border-bottom: 1px solid #A8221F;font-size: 16px;}
+.car-m{color:#000000;font-size:18px;font-weight:bolder;line-height:90px;}
+.car-d{color:red;font-size:12px; font-weight: bold;}
+.car-btn{position:absolute;top:18px;right:0;}
+.car-btn,.car-btn2{width:122px;height: 35px;background: #ca0202;line-height:35px;font-size:14px;font-weight:bold;float:right;text-align: center;border-radius:5% ;}
+.car-btn a,.car-btn2 a{color:white;}
+.car-content table{width:980px;height:px;border:1px solid #C5C5C5;margin-bottom:18px;font-size:16px;}
+.car-content table thead td{height:31px; line-height:31px;color:#C5C5CC ;text-align: center;}
+.car-content table tr{border:1px solid #C5C5C5;height: 70px;}
+.car-content .tr1 img,.car-content .car-btn1 img{vertical-align: middle;}
+.car-content .tr1 img{width:50px;height: 50px;}
+.car-content .tr1 a{color:royalblue;}
+.car-content .tr1 .td1{color:red;text-align: center;}
+.car-content .td2{text-align: center;}
+.car-content .tr1 .td2 i{width:16px;height: 18px;line-height: 18px;border:1px solid #D6D6D6;display: inline-block;text-align: center;}
+.car-content .tr1 .td2 span{width:32px;height: 18px;line-height: 16px;border:1px solid #D6D6D6;display: inline-block;text-align: center;margin: 2px 4px;}
+.car-content .tr1 .td3{text-align:right;}
+.car-content .td4{background:#f6f6f6;}
+.car-content .car-btn1{display: inline-block;width:97px;height: 33px;border:1px solid #DCDCDC;line-height:30px;text-align: center;}
+.list{height:560px;border:1px solid #c5c5c5;margin-bottom:21px; margin-top: 27px;font-size: 16px;}
+.list .list-title{width:980px;height: 40px; border-bottom:1px solid #c5c5c5; background:#f8f8f8;font-size: 18px; font-weight: bolder;color:#999999;line-height:32px;}
+
+.ospan{width:100px;height: 30px;margin-top:20px; line-height:30px;border:1px solid #999999;display:inline-block;background:#F5F5F5;}
+.bottom{height:197px;background:#fafafa; text-align: center;font-size: 16px;}
+.bottom img{padding:20px 0px ;}
+.bottom .bottom-nav ul{padding: 10px;}
+.bottom .bottom-nav ul li{display: inline-block;height:17px;border-right:1px solid#DADADA;padding-right:10px; }
+
+

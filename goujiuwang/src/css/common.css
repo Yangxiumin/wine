@@ -1,0 +1,30 @@
+html,body{height:100%;width:100%;}
+.wrap{height:2000px;position: relative;color:black;margin: auto;}
+.top img{width:100%;}
+.nav{height:34px;background: #f7f7f7;border-bottom: 1px solid #dadada;border-top:1px solid #dadada;}
+.nav1 ul{padding-left:30px;}
+.nav1 li{float:left;padding:10px 10px 0 0}
+.nav1 .gift{color:red;}
+.nav2{padding-left:100px;float: right;}
+.nav2 li{float:left;margin:10px 23px 0 0;}
+.nav2 ul{text-align: right;}
+.nav2 .serve a,.seg a,.wei a{color:red;}
+
+.content{height:1200px;margin: auto;}
+
+.bottom1{height:355px;margin: auto;background: #3d3d3d;font-size: 12px;	}
+.bottom1 img{width:100%}
+.bottom1 .bottom1_1,.bottom2 .bottom2_1{ margin: auto;width:1090px}
+.bottom1 .bottom1_1 ul{float: left;color:#919191;padding:50px;}
+.bottom1 .bottom1_1 ul li{line-height: 30px;}
+.bottom1 .bottom1_1 ul h4{font-size:16px;color:#ffffff;}
+.bottom1 .bottom1_1 .bli{color:yellow}
+
+.bottom2{height:100px;margin: auto;}
+.bottom2 .bottom2_1 img{vertical-align: middle;}
+.bottom2 .bottom2_1 dl,.bottom2 .bottom2_1 img{float: left;}
+.bottom2 .bottom2_1 dl{width:210px;line-height: 27px;}
+.bottom2 .bottom2_1 dt{color:red; font-size: 18px ;font-weight: bolder;}
+.bottom2 .bottom2_1 dd{color:#c5c5c5;font-size: 16px;}
+
+.end{text-align: center; padding-top:10px;}

@@ -1,0 +1,36 @@
+
+.ret-content{height:785px;margin: auto;}
+.top{width:989px;height:90px;margin: auto;position: relative;}
+.top #login{padding-left: 10px;color:blue;}
+.top #serve{color:red;}
+.top img,ul{float:left;}
+.top ul{position: absolute;right:0}
+.top ul li{float:left;padding: 30px;}
+
+.ret-content{margin: auto;width:1280px;height:700px ;border-top:1px solid #c5c5c5;background: url(img/reg-bg.png);position:absolute;}
+.reg-form{background: white;border:5px solid #d6d6d6;height:567px;width:989px;position: absolute;top:27px;left:140px;}
+
+.form-left{position: absolute;width:600px;height:567px;border-right:2px solid #dcdcdc}
+.form-left .title{height:90px;}
+.form-left .title ul{width:526px;height:52px;border-bottom: 1px solid #C5C5C5;margin:30px 0 0 43px }
+.form-left .title img{vertical-align: middle;}
+.form-left ul li{display: inline-block;padding-left:80px}
+.form-left #reg-pho{border-right: 1px solid #C5C5C5;padding-right: 90px;}
+.form-left .mess{position: absolute;left:30px}
+.form-left #email{position: absolute;left:600px;display: none;}
+.form-left .mess label{padding:10px;text-align: center;font-size: ;	}
+.form-left .mess input,button{width:350px;height: 54px;	}
+.form-left #tips{text-indent:113px ;}
+.form-left #tips a{color:dodgerblue}
+.form-left .mess #sub,#sub2{height: 40px;background: #fc5251;border:1px solid #a8221f;}
+.form-left #reg-mac-1 {width:173px;margin-right: 175px;	}
+.form-right{width:387px;height:567px;}
+.form-right img{padding-top: 85px;padding-left: 36px;}
+.form-right{float:right;}
+
+.ospan{width:100px; height:45px;line-height:45px;background:#999999;position: absolute;left: 233px;bottom:181px}
+
+.reg-mac-1 i{position: absolute;left:350px;bottom:200px;display: block;}
+.bottom{position: absolute;bottom:0;height:45px ;left:35%}
+.bottom ul li{display: inline-block;border-right: 1px solid #999999;padding-right:10px;}
+#text{position: absolute;bottom:-20px;height:45px ;left:33%	}
